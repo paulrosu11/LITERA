@@ -26,7 +26,7 @@ Although the fine-tuned models themselves cannot be shared due to OpenAI's polic
   
 2. **Navigate to OpenAI's Fine-Tuning Page**: Visit [OpenAI's fine-tuning page](https://platform.openai.com/finetune) to begin the fine-tuning process.
 
-3. **Create a Fine-Tuning Job**: Choose `gpt-4-turbo-0613` or a similar model as the base. Upload the dataset from this repository.
+3. **Create a Fine-Tuning Job**: Choose `gpt-4o-mini` or a similar model as the base. Upload the dataset from this repository.
 
 4. **Set Hyperparameters**: Use the following settings:
    - **Epochs**: 3
