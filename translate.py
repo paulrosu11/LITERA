@@ -59,8 +59,17 @@ def generate_translation(text):
 
 def generate_non_literal_translation(text):
     """
-    This function generates a non-literal translation that emphasizes readability and naturalness in English,
-    while maintaining the core meaning of the original Latin text.
+    This function expects the input to be structured with both the original Latin text 
+    and a literal English translation attempt. The input should be provided in the 
+    following format:
+    
+    Latin Text: [Insert Latin text here]
+    Literal English Translation: [Insert literal English translation here]
+    
+    The function uses these inputs to generate a non-literal, interpreted English 
+    translation that focuses on conveying the essence, meanings, and contextual 
+    nuances of the Latin text. The non-literal translation aims to enhance readability 
+    and accurately reflect the historical and cultural context of the original text.
     """
     response = clientGPT.chat.completions.create(
         model="gpt-4o",
