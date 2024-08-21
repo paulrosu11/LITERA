@@ -12,7 +12,7 @@ This repository contains the data and scripts used in the development of LITERA,
 
 - **Python Scripts**: Scripts for performing API calls to the LITERA model, including the necessary prompts for translation and revision. These scripts can be used to replicate the translation process described in the LITERA paper.
 
-  - `translate_latin_openai_two.py`: The main script for translating Latin text using the fine-tuned LITERA model. This script handles multiple translation attempts and revisions to produce the best possible translation. This also inlcudes a function for generating non-literal translations that prioritize fluency and readability over strict adherence to Latin syntax.
+  - `translate.py`: The main script for translating Latin text using the fine-tuned LITERA model. This script handles multiple translation attempts and revisions to produce the best possible translation. This also inlcudes a function for generating non-literal translations that prioritize fluency and readability over strict adherence to Latin syntax.
   
 - **Model Prompts**: All of the prompts used for the various layers in LITERA. 
 
